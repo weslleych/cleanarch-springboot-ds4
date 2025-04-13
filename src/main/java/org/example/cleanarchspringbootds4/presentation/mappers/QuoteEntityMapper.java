@@ -1,4 +1,4 @@
-package org.example.cleanarchspringbootds4.infrastructure.mappers;
+package org.example.cleanarchspringbootds4.presentation.mappers;
 
 import org.example.cleanarchspringbootds4.domain.model.QuoteModel;
 import org.example.cleanarchspringbootds4.infrastructure.persistence.entity.QuoteEntity;
