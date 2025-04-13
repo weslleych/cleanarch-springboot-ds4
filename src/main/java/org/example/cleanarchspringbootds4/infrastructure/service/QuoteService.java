@@ -1,4 +1,4 @@
-package org.example.cleanarchspringbootds4.infrastructure.gateways;
+package org.example.cleanarchspringbootds4.infrastructure.service;
 
 import lombok.RequiredArgsConstructor;
 import org.example.cleanarchspringbootds4.application.gateways.QuoteGateway;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor
 @Component
-public class QuoteRepositoryGateway implements QuoteGateway {
+public class QuoteService implements QuoteGateway {
 
     private final QuoteRepository quoteRepository;
     private final QuoteEntityMapper quoteMapper;
